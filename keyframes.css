@@ -1,0 +1,66 @@
+
+@keyframes a1 {
+    0% {left: 45%; top: 45%;}
+    50% {left: 0%; top: 0%;}
+    100% {left: 45%; top: 45%;}
+}
+
+@keyframes a2 {
+    0% {left: 45%; top: 45%;}
+    50% {left: 85%; top: 0%;}
+    100% {left: 45%; top: 45%;}
+}
+
+@keyframes a3 {
+    0% {left: 45%; top: 45%;}
+    50% {left: 85%; top: 85%;}
+    100% {left: 45%; top: 45%;}
+}
+
+@keyframes a4 {
+    0% {left: 45%; top: 45%;}
+    50% {left: 0%; top: 85%;}
+    100% {left: 45%; top: 45%;}
+}
+
+@keyframes u {
+    0% {left: 45%; top: 45%;}
+    50% {left: 45%; top: 0%;}
+    100% {left: 45%; top: 45%;}
+}
+
+@keyframes r {
+    0% {left: 45%; top: 45%;}
+    50% {left: 85%; top: 45%;}
+    100% {left: 45%; top: 45%;}
+}
+
+@keyframes d {
+    0% {left: 45%; top: 45%;}
+    50% {left: 45%; top: 85%;}
+    100% {left: 45%; top: 45%;}
+}
+
+@keyframes l {
+    0% {left: 45%; top: 45%;}
+    50% {left: 0%; top: 45%;}
+    100% {left: 45%; top: 45%;}
+}
+
+.t1 {animation-delay: -1s;}
+.t2 {animation-delay: -2s;}
+.t3 {animation-delay: -3s;}
+.t4 {animation-delay: -4s;}
+.t5 {animation-delay: -5s;}
+
+@keyframes rot {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes center {
+    0% {transform: scale(1, 1);}
+    50% {transform: scale(1.1, 1.1);}
+    80% {transform: scale(0.8, 0.8);}
+    100% {transform: scale(1, 1);}
+}
